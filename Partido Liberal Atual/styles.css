@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #173F79; /* Alterado para fundo azul */
+    color: #fff; /* Ajustado para garantir boa visibilidade do texto no fundo azul */
+}
+
+header {
+    background-color: #173F79;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+
+.logo img {
+    width: 100px;
+    margin-right: 30px;
+}
+
+.logo h1 {
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.logo h2 {
+    margin-left: 150px;
+    font-size: 30px;
+    color: #ffd700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 50px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.candidate {
+    background-color: #ffd700;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: #173F79;
+}
+
+.main-content {
+    padding: 40px 70px;
+    text-align: left;
+    background-color: #133F75;
+    color: #ffffff;
+    max-width: 900px;
+}
+
+.mission h3 {
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: #ffd700;
+}
+
+.mission p, .mission-statement p {
+    font-size: 19px;
+    margin-bottom: 70px;
+}
+
+.vote {
+    margin-top: 60px;
+}
+
+.vote button {
+    background-color: #FFDD00;
+    color: #173F79;
+    border: none;
+    padding: 25px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 40px;    
+    margin-left: 300px;
+}
+
+.vote button:hover {
+    background-color: #ffd700;
+}
+
+.player-image {
+    text-align: right;
+}
+
+.player-image img {
+    margin-top: 20px;
+    width: 800px;
+    border-radius: 200px;
+    margin-left: 1100px;
+}
+footer {
+    background-color: #173F79;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
